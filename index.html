@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Apex Studio creates calm, modern architecture and interiors shaped around everyday living.">
+  <meta name="theme-color" content="#f7f8f6">
+  <title>Apex Studio - Transform Ideas Into Reality</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="home">
+    <a class="logo" href="#home" aria-label="Apex Studio home"><span class="house-mark">⌂</span> APEX<span>STUDIO</span></a>
+    <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false"><i></i><i></i></button>
+    <nav id="site-nav" aria-label="Main navigation"><a href="#home">Home</a><a href="#about">About</a><a href="#portfolio">Portfolio</a><a href="#services">Services</a><a href="#testimonial">Testimonial</a></nav>
+    <a class="button header-button" href="mailto:contact@projectmonet.space?subject=Apex%20Studio%20enquiry">Contact Us</a>
+  </header>
+
+  <main>
+    <section class="property page-shell" id="about" aria-labelledby="property-title">
+      <div class="property-gallery">
+        <div class="main-image"><img id="property-main" src="assets/house-main.jpg" alt="The Modern Moreland House" width="1296" height="1077"><span>Featured residence</span></div>
+        <div class="thumbnails"><button data-image="assets/house-2.jpg" data-alt="Alternate house exterior one"><img src="assets/house-2.jpg" alt="Alternate house exterior one" width="676" height="468"></button><button data-image="assets/house-3.jpg" data-alt="Alternate house exterior two"><img src="assets/house-3.jpg" alt="Alternate house exterior two" width="676" height="444"></button><button data-image="assets/house-4.jpg" data-alt="Alternate house exterior three"><img src="assets/house-4.jpg" alt="Alternate house exterior three" width="676" height="452"><span>+6</span></button></div>
+      </div>
+      <div class="property-content">
+        <article><h1 id="property-title">The Modern Moreland House</h1><p class="address">4517 Washington Ave. Manchester, 39495</p><p class="price">Starting Price: <strong>₹200k</strong></p><p>The world of luxury residential design is where dreams take shape and aspirations find their home. A symphony of thoughtful form, beautiful amenities and practical circulation creates a lifestyle that feels effortless.</p><div class="features-title">Property Features</div><dl class="property-features"><div><dt>Type</dt><dd>House</dd></div><div><dt>Bedrooms</dt><dd>6</dd></div><div><dt>Total Area</dt><dd>10,000 sq. ft</dd></div><div><dt>Status</dt><dd>For Sale</dd></div><div><dt>Bathrooms</dt><dd>4</dd></div><div><dt>Pool</dt><dd>415 sq. ft</dd></div></dl></article>
+        <form id="visit-form"><h2>Schedule Visit</h2><label>Name<input name="name" required placeholder="Your name"></label><label>Phone Number<input name="phone" type="tel" required placeholder="Your phone number"></label><label>Message<textarea name="message" rows="5" placeholder="Leave us a message…"></textarea></label><button class="button" type="submit">Schedule Visit</button><a class="call-now" href="tel:+918290096163">Prefer a call? +91 82900 96163</a><p class="form-note" aria-live="polite"></p></form>
+      </div>
+    </section>
+
+    <section class="services" id="services" aria-labelledby="services-title"><div class="page-shell"><div class="section-heading light"><h2 id="services-title">Key Features</h2><p>Design decisions that create better flow, a calmer atmosphere and spaces that age beautifully.</p></div><div class="accordions"><article class="open"><button><span>01</span>Furniture Layout <b>↗</b></button><div><p>A considered floor plan optimizes space, supports smooth movement and creates distinct zones without sacrificing openness.</p></div></article><article><button><span>02</span>Natural Light &amp; Ventilation <b>↗</b></button><div><p>Windows, openings and internal circulation are shaped to bring daylight and fresh air deeper into the home.</p></div></article><article><button><span>03</span>Appealing Curb Appeal <b>↗</b></button><div><p>Balanced massing, material contrast and thoughtful landscaping create a memorable first impression.</p></div></article><article><button><span>04</span>Energy Efficiency <b>↗</b></button><div><p>Passive shading, orientation and responsible materials help improve comfort while reducing energy use.</p></div></article></div><div class="room-pair"><img src="assets/room-living.jpg" alt="Natural light in a modern living room" width="819" height="786"><img src="assets/room-bedroom.jpg" alt="Calm modern bedroom interior" width="975" height="786"></div></div></section>
+
+    <section class="portfolio page-shell" id="portfolio" aria-labelledby="portfolio-title"><div class="section-heading"><h2 id="portfolio-title">Discover Our Gallery</h2><p>A selection of modern homes and interiors built around warmth, proportion and connection to landscape.</p></div><div class="gallery-stage"><img class="active" src="assets/gallery-house.jpg" alt="Modern poolside home" width="1512" height="750"><img src="assets/house-main.jpg" alt="Modern Moreland House" width="1296" height="1077"><img src="assets/room-living.jpg" alt="Modern living room" width="819" height="786"></div><div class="gallery-controls"><button data-gallery="prev">← Previous</button><span>01 / 03</span><button class="filled" data-gallery="next">Next →</button></div></section>
+
+    <section class="testimonial-section" id="testimonial" aria-labelledby="testimonial-title"><div class="page-shell"><div class="testimonial-heading"><h2 id="testimonial-title">Our Testimonial</h2><p>Our clients’ words are the true measure of our success, reflecting their trust in our work.</p></div><div class="testimonial-track"><blockquote class="active"><span>“</span><p>Working with Apex Studio was an absolute pleasure. Their furniture layout service completely transformed our living room.</p><footer><b>Michael K.</b><small>New York</small></footer></blockquote><blockquote><span>“</span><p>The team understood how we wanted our home to feel, and translated it into a restrained, beautifully practical design.</p><footer><b>Sarah W.</b><small>Delhi</small></footer></blockquote><blockquote><span>“</span><p>Clear thinking, thoughtful details and excellent communication from the first concept to the final room.</p><footer><b>Aditya R.</b><small>Gurugram</small></footer></blockquote></div><div class="testimonial-controls"><button data-testimonial="prev">← Previous</button><button class="filled" data-testimonial="next">Next →</button></div></div></section>
+
+    <section class="cta"><div class="page-shell"><div class="section-heading"><h2>Transform Ideas Into Reality</h2><p>Begin a collaborative journey that turns your vision into an exceptional, livable design.</p></div><a class="circle-contact" href="mailto:contact@projectmonet.space?subject=Start%20an%20Apex%20Studio%20project"><span>↗</span>Contact Us</a><div class="apex-word">APEX STUDIO</div><img src="assets/cta-house.jpg" alt="Apex Studio modern house at dusk" width="1725" height="550"></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="page-shell"><a class="logo footer-logo" href="#home"><span class="house-mark">⌂</span> APEX<span>STUDIO</span></a><p>Modern architecture and interiors where creativity and practical living meet.</p><div class="footer-row"><nav><a href="#home">Home</a><a href="#about">About</a><a href="#portfolio">Portfolio</a><a href="#services">Services</a><a href="#testimonial">Testimonial</a></nav><div><a href="mailto:contact@projectmonet.space">contact@projectmonet.space</a><a href="tel:+918290096163">+91 82900 96163</a></div></div><div class="footer-bottom"><span>© 2026 Apex Studio. All rights reserved.</span><a href="https://www.projectmonet.space" target="_blank" rel="noopener">Made by Projectmonet</a></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
